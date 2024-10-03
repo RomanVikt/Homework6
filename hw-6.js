@@ -1,9 +1,9 @@
 // Задание 1
 
-/* const mass1 = [1, 5, 4, 10, 0, 3];
-for (let i = 0; i < mass.length; i++) {
+/*  const mass1 = [1, 8, 4, 10, 0, 3];
+for (let i = 0; i < mass1.length; i++) {
    console.log(mass1[i]);
-   if (mass[i] === 10) {
+   if (mass1[i] === 10) {
       break;
    }
 } */
@@ -54,13 +54,13 @@ console.log(mass6); */
 
 // Задание 7
 
-/* const mass7 = [9, 8, 7, 6, 5];
-let d = +prompt("Назовите число ");
-if (mass7.includes(d)) {
+ const mass7 = [9, 8, 7, 6, 5];
+let d = Number(prompt("Назовите число "));
+if (!isNaN(d) && mass7.includes(d)) {
    alert('Угадал');
 } else {
    alert('Не угадал');   
-} */
+} 
 
 // Задание 8
 
@@ -136,7 +136,7 @@ console.log(mass142); */
 // Задание 15
 
 
-function fun15() {
+/* function fun15() {
     return Math.floor(Math.random() * 10);
  }
  
@@ -147,4 +147,4 @@ function fun15() {
  }
  
  console.log(mass15);
- console.log(mass15.reduce((a, b) => a + b) / mass15.length);
+ console.log(mass15.reduce((a, b) => a + b) / mass15.length); */
