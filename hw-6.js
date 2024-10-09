@@ -54,13 +54,13 @@ console.log(mass6); */
 
 // Задание 7
 
- const mass7 = [9, 8, 7, 6, 5];
+/*const mass7 = [9, 8, 7, 6, 5];
 let d = Number(prompt("Назовите число "));
 if (!isNaN(d) && mass7.includes(d)) {
    alert('Угадал');
 } else {
    alert('Не угадал');   
-} 
+} */
 
 // Задание 8
 
